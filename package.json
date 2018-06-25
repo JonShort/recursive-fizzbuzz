@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node ./src/recursive-fizzbuzz.js",
+    "test": "jest ./tests/recursive-fizzbuzz.js"
+  },
+  "devDependencies": {
+    "jest": "^23.2.0",
+    "prettier": "1.13.6"
+  }
+}

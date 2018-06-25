@@ -1,21 +1,21 @@
 const theArray = new Array(100);
 
-for(let i = 0; i < theArray.length; ++i) {
+for (let i = 0; i < theArray.length; ++i) {
   theArray[i] = i + 1;
 }
 
-const recursiveCheck = (array) => (n = 0) => {
+const recursiveCheck = array => (n = 0) => {
   const currentVal = n + 1;
 
   if (!(currentVal % 3) && !(currentVal % 5)) {
-    array[n] = 'FizzBuzz';
+    array[n] = "FizzBuzz";
   } else {
     if (!(currentVal % 3)) {
-      array[n] = 'Fizz';
+      array[n] = "Fizz";
     }
 
     if (!(currentVal % 5)) {
-      array[n] = 'Buzz';
+      array[n] = "Buzz";
     }
   }
 

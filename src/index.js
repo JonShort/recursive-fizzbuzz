@@ -1,4 +1,6 @@
 const readline = require('readline');
+const recursiveCheck = require('./fizzbuzz/recursiveCheck');
+const classicArray = require('./fizzbuzz/classicArray');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -19,7 +21,8 @@ rl.on('line', line => {
       break;
 
     case 'c':
-      console.log('\r\nClassic coming right up 🤓');
+      console.log('\r\n🤓 Classic 🤓\r\n');
+      recursiveCheck(classicArray())();
       break;
 
     default:

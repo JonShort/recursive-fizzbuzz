@@ -1,8 +1,14 @@
 {
+  "name": "recursive-fizzbuzz",
+  "version": "1.0.0",
+  "description": "Simple javascript recursive function fizzbuzz",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node ./src/recursive-fizzbuzz.js",
-    "test": "jest ./tests/recursive-fizzbuzz.js"
+    "start": "node ./src/index",
+    "test": "jest ./tests/index"
   },
+  "author": "Jon Short",
+  "license": "ISC",
   "devDependencies": {
     "jest": "^23.2.0",
     "prettier": "1.13.6"
